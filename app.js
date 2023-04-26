@@ -14,7 +14,7 @@ btnTranslate.addEventListener("click", function () {
     return;
   }
   var url = "https://api.funtranslations.com/translate/chef.json";
-  fetch(`url +"+text=" ${userInput}`)
+  fetch(`${url}?text=${userInput}`)
     .then((res) => res.json())
     .then((json) => (txtOutput.innerText = json.contents.translated))
     .catch(handleError);
