@@ -5,6 +5,7 @@
     --primary-skyblue: #58F3D1;
     --secondary-skyblue: #ade0e4;
     box-sizing: border-box;
+    font-family: "OctoberScript";
 }
 body {
     background-color: var(--primary-skyblue);
